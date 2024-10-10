@@ -1,0 +1,94 @@
+.nav{
+    background-color: black;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+}
+.list{
+    display: flex;
+    gap:20px;
+    list-style-type: none;
+    color: antiquewhite;
+    margin: 10px;
+    
+}
+.list a{
+    text-decoration: none;
+    color: aliceblue;
+}
+
+    .search {
+        display: flex;
+        align-items: center;
+        margin:30px;
+        margin-left:100px ;
+    }
+    
+    .search-input {
+        padding: 10px;
+        border: 2px solid #ccc;
+        border-radius: 4px;
+        width: 80%;
+        font-size: 16px;
+    }
+    
+    .search-input:focus {
+        border-color: #007BFF;
+        outline: none;
+    }
+    .perfume-container {
+        display: flex;
+        align-items: center; 
+        gap:10px;
+        margin: 20px;
+        justify-content: center;
+    }
+    
+    .perfume-box {
+        border: 2px solid #ccc;
+        border-radius: 8px;
+        padding: 20px;
+        width: 200px;
+        height: 400px;
+        text-align: center;
+        font-size: 18px;
+        background-color: #f9f9f9; /* Light background for contrast */
+
+    }
+    .perfume-box img{
+        width:200px;
+
+    }
+    
+    .perfume-box:hover {
+        border-color: #007BFF; /* Change border color on hover */
+        background-color: #e9f5ff; /* Light background on hover */
+    }
+    .about{
+        text-align: center;
+        font-size: larger;
+    }
+    .footer {
+        background-color: black; /* Set background color to black */
+        color: white; /* Set text color to white */
+        padding: 20px; /* Add padding */
+        text-align: center; /* Center the text */
+    }
+    
+    .footer-content a {
+        color: #00aaff; /* Color for the email link */
+        text-decoration: none; /* Remove underline from link */
+    }
+    
+    .footer-content a:hover {
+        text-decoration: underline; /* Underline on hover */
+    }
+    
+    
+    
+    
+    
+  
+    
+
+
