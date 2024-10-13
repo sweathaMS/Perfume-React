@@ -9,7 +9,7 @@
     gap:20px;
     list-style-type: none;
     color: antiquewhite;
-    margin: 10px;
+    margin: 15px;
     
 }
 .list a{
@@ -61,8 +61,10 @@
     }
     
     .perfume-box:hover {
-        border-color: #007BFF; /* Change border color on hover */
-        background-color: #e9f5ff; /* Light background on hover */
+        border-color: #007BFF;
+        background-color: #e9f5ff;
+        transform: scale(1.05); /* Slightly scale up on hover */
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Shadow on hover */
     }
     .about{
         text-align: center;
@@ -83,6 +85,37 @@
     .footer-content a:hover {
         text-decoration: underline; /* Underline on hover */
     }
+    /* Media Queries */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column; /* Stack items vertically */
+        align-items: center; /* Center align */
+    }
+
+    .search {
+        margin: 0px 50 ; /* Adjust margins */
+    }
+
+    .perfume-container {
+        flex-direction: column; /* Stack perfume boxes */
+        align-items: center; /* Center align */
+    }
+
+    .perfume-box {
+        width: 80%; /* Full width on smaller screens */
+        margin: 10px 0; /* Space between boxes */
+    }
+}
+
+@media (max-width: 480px) {
+    .search-input {
+        width: 100%; 
+    }
+
+    .footer {
+        font-size: small; 
+    }
+}
     
     
     

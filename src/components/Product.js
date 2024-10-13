@@ -15,6 +15,7 @@ function Productimg()
     <img src={two} alt="perfume-2"></img>
     <p>Perfume 2: Description of Perfume 2 | 100 ml | $75.00</p>
     </div>
+    
     <div className="perfume-box">
     <img src={three} alt="perfume-3"></img>
     <p>Perfume 3: Description of Perfume 3 | 30 ml | $40.00</p>
